@@ -13,7 +13,7 @@ http://xvip.pro/player_api.php?username=hussein.ashraf&password=75182728&action=
 http://xvip.pro/series/hussein.ashraf/75182728/321202
 
 http://your_dns:port/api.php?action=vod&sub=start&stream_ids[]=321202
-
+//  "container_extension": "mp4", Is File ext
 {
     "user_info": {
         "username": "hussein.ashraf",
@@ -41,5 +41,126 @@ http://your_dns:port/api.php?action=vod&sub=start&stream_ids[]=321202
         "timestamp_now": 1691446516,
         "time_now": "2023-08-08 01:15:16",
         "process": true
+    }
+}
+//  "container_extension": "mp4", Is File ext
+
+"2": [
+            {
+                "id": "321202",
+                "episode_num": 1,
+                "title": "Episode 1",
+                "container_extension": "mkv",
+                "info": {
+                    "movie_image": "http://xvip.pro:80/images/_small.jpg",
+                    "plot": "",
+                    "rating": "0",
+                    "releasedate": "2023-11-02",
+                    "duration_secs": 3340,
+                    "duration": "00:55:40",
+                    "video": {
+                        "index": 2,
+                        "codec_name": "png",
+                        "codec_long_name": "PNG (Portable Network Graphics) image",
+                        "codec_type": "video",
+                        "codec_time_base": "0/1",
+                        "codec_tag_string": "[0][0][0][0]",
+                        "codec_tag": "0x0000",
+                        "width": 720,
+                        "height": 540,
+                        "coded_width": 720,
+                        "coded_height": 540,
+                        "has_b_frames": 0,
+                        "sample_aspect_ratio": "1:1",
+                        "display_aspect_ratio": "4:3",
+                        "pix_fmt": "rgb24",
+                        "level": -99,
+                        "color_range": "pc",
+                        "refs": 1,
+                        "r_frame_rate": "90000/1",
+                        "avg_frame_rate": "0/0",
+                        "time_base": "1/90000",
+                        "start_pts": 0,
+                        "start_time": "0.000000",
+                        "duration_ts": 300676680,
+                        "duration": "3340.852000",
+                        "disposition": {
+                            "default": 0,
+                            "dub": 0,
+                            "original": 0,
+                            "comment": 0,
+                            "lyrics": 0,
+                            "karaoke": 0,
+                            "forced": 0,
+                            "hearing_impaired": 0,
+                            "visual_impaired": 0,
+                            "clean_effects": 0,
+                            "attached_pic": 1,
+                            "timed_thumbnails": 0
+                        },
+                        "tags": {
+                            "filename": "cover.png",
+                            "mimetype": "image/png"
+                        }
+                    },
+                    "audio": {
+                        "index": 1,
+                        "codec_name": "aac",
+                        "codec_long_name": "AAC (Advanced Audio Coding)",
+                        "profile": "LC",
+                        "codec_type": "audio",
+                        "codec_time_base": "1/48000",
+                        "codec_tag_string": "[0][0][0][0]",
+                        "codec_tag": "0x0000",
+                        "sample_fmt": "fltp",
+                        "sample_rate": "48000",
+                        "channels": 2,
+                        "channel_layout": "stereo",
+                        "bits_per_sample": 0,
+                        "r_frame_rate": "0/0",
+                        "avg_frame_rate": "0/0",
+                        "time_base": "1/1000",
+                        "start_pts": 9,
+                        "start_time": "0.009000",
+                        "disposition": {
+                            "default": 0,
+                            "dub": 0,
+                            "original": 0,
+                            "comment": 0,
+                            "lyrics": 0,
+                            "karaoke": 0,
+                            "forced": 0,
+                            "hearing_impaired": 0,
+                            "visual_impaired": 0,
+                            "clean_effects": 0,
+                            "attached_pic": 0,
+                            "timed_thumbnails": 0
+                        },
+                        "tags": {
+                            "language": "eng",
+                            "BPS": "109904",
+                            "BPS-eng": "109904",
+                            "DURATION": "00:55:40.843000000",
+                            "DURATION-eng": "00:55:40.843000000",
+                            "NUMBER_OF_FRAMES": "156602",
+                            "NUMBER_OF_FRAMES-eng": "156602",
+                            "NUMBER_OF_BYTES": "45896661",
+                            "NUMBER_OF_BYTES-eng": "45896661",
+                            "_STATISTICS_WRITING_APP": "mkvmerge v15.0.0 ('Duel with the Devil') 64-bit",
+                            "_STATISTICS_WRITING_APP-eng": "mkvmerge v15.0.0 ('Duel with the Devil') 64-bit",
+                            "_STATISTICS_WRITING_DATE_UTC": "2023-07-22 16:53:10",
+                            "_STATISTICS_WRITING_DATE_UTC-eng": "2023-07-22 16:53:10",
+                            "_STATISTICS_TAGS": "BPS DURATION NUMBER_OF_FRAMES NUMBER_OF_BYTES",
+                            "_STATISTICS_TAGS-eng": "BPS DURATION NUMBER_OF_FRAMES NUMBER_OF_BYTES"
+                        }
+                    },
+                    "bitrate": 1544
+                },
+                "custom_sid": "",
+                "added": "1690046045",
+                "season": 2,
+                "direct_source": ""
+            }
+        ]
     }
 }

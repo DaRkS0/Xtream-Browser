@@ -14,5 +14,7 @@ namespace X_IPTV
     public partial class App : Application
     {
         //https://wiki.ottrun.com/homepage/player-api-for-otr-panel
+
+        //  "container_extension": "mp4", Is File ext
     }
 }
