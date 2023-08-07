@@ -1,0 +1,45 @@
+http://xvip.pro:80###hussein.ashraf###75182728
+
+
+http://xvip.pro:80/get.php?Username=hussein.ashraf&password=75182728&type=m3u&output=mpegts
+
+http://xvip.pro/player_api.php?username=hussein.ashraf&password=75182728
+http://xvip.pro/player_api.php?username=hussein.ashraf&password=75182728&action=get_series
+
+http://xvip.pro/player_api.php?username=hussein.ashraf&password=75182728&action=get_series_info&series_id=1340
+
+
+http://xvip.pro/player_api.php?username=hussein.ashraf&password=75182728&action=get_vod_info&vod_id=321202
+http://xvip.pro/series/hussein.ashraf/75182728/321202
+
+http://your_dns:port/api.php?action=vod&sub=start&stream_ids[]=321202
+
+{
+    "user_info": {
+        "username": "hussein.ashraf",
+        "password": "75182728",
+        "message": "<p><br></p>",
+        "auth": 1,
+        "status": "Active",
+        "exp_date": "1697647509",
+        "is_trial": "0",
+        "active_cons": "0",
+        "created_at": "1689698709",
+        "max_connections": "1",
+        "allowed_output_formats": [
+            "m3u8",
+            "ts"
+        ]
+    },
+    "server_info": {
+        "url": "xvip.pro",
+        "port": "80",
+        "https_port": "2083",
+        "server_protocol": "http",
+        "rtmp_port": "25462",
+        "timezone": "Asia/Riyadh",
+        "timestamp_now": 1691446516,
+        "time_now": "2023-08-08 01:15:16",
+        "process": true
+    }
+}
