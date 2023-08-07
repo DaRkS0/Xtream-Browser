@@ -13,5 +13,6 @@ namespace X_IPTV
     /// </summary>
     public partial class App : Application
     {
+        //https://wiki.ottrun.com/homepage/player-api-for-otr-panel
     }
 }
